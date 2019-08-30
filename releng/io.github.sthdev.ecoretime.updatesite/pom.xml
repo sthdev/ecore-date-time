@@ -1,11 +1,11 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>io.github.sthdev.ecore.date.time</groupId>
-		<artifactId>io.github.sthdev.ecore.date.time.releng</artifactId>
+		<groupId>io.github.sthdev.ecoretime</groupId>
+		<artifactId>io.github.sthdev.ecoretime.releng</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>io.github.sthdev.ecore.date.time.updatesite</artifactId>
+	<artifactId>io.github.sthdev.ecoretime.updatesite</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>eclipse-repository</packaging>
 </project>

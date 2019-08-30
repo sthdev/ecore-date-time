@@ -1,18 +1,18 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>io.github.sthdev.ecore.date.time</groupId>
-	<artifactId>io.github.sthdev.ecore.date.time.bundles</artifactId>
+	<groupId>io.github.sthdev.ecoretime</groupId>
+	<artifactId>io.github.sthdev.ecoretime.bundles</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<parent>
-		<groupId>io.github.sthdev.ecore.date.time</groupId>
-		<artifactId>io.github.sthdev.ecore.date.time.root</artifactId>
+		<groupId>io.github.sthdev.ecoretime</groupId>
+		<artifactId>io.github.sthdev.ecoretime.root</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
 	<modules>
-		<module>io.github.sthdev.ecore.date.time.core</module>
+		<module>io.github.sthdev.ecoretime.core</module>
 	</modules>
 </project>
 

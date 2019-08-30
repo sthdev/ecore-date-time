@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="io.github.sthdev.ecore.date.time.feature"
+      id="io.github.sthdev.ecoretime.feature"
       label="Ecore Date Time"
       version="1.0.0.qualifier"
       provider-name="sthdev.github.io">
@@ -18,7 +18,7 @@
    </license>
 
    <plugin
-         id="io.github.sthdev.ecore.date.time.core"
+         id="io.github.sthdev.ecoretime.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
