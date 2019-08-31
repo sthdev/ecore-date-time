@@ -7,4 +7,12 @@
 <plugin>
 
 
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated ecoretime -->
+      <package
+            uri="http://www.github.io/sthdev/ecoretime/1.0"
+            class="io.github.sthdev.ecoretime.core.ecoretime.EcoreTimePackage"
+            genModel="model/ecoretime.genmodel"/>
+   </extension>
+
 </plugin>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
   <viewpoint:DAnalysis uid="_NjMaAMgjEem9-K8kgDhyuQ" selectedViews="_Nr0xkMgjEem9-K8kgDhyuQ" version="14.1.0.201810161215">
-    <semanticResources>ecoredatetime.ecore</semanticResources>
-    <semanticResources>ecoredatetime.genmodel</semanticResources>
+    <semanticResources>ecoretime.ecore</semanticResources>
+    <semanticResources>ecoretime.genmodel</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_Nr0xkMgjEem9-K8kgDhyuQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_NzGeQMgjEem9-K8kgDhyuQ" name="ecoredatetime" repPath="#_Nu4soMgjEem9-K8kgDhyuQ">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_NzGeQMgjEem9-K8kgDhyuQ" name="ecoretime" repPath="#_Nu4soMgjEem9-K8kgDhyuQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
-        <target xmi:type="ecore:EPackage" href="ecoredatetime.ecore#/"/>
+        <target xmi:type="ecore:EPackage" href="ecoretime.ecore#/"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <diagram:DSemanticDiagram uid="_Nu4soMgjEem9-K8kgDhyuQ" name="ecoredatetime">
+  <diagram:DSemanticDiagram uid="_Nu4soMgjEem9-K8kgDhyuQ" name="ecoretime">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Ny_wkMgjEem9-K8kgDhyuQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_NzAXoMgjEem9-K8kgDhyuQ"/>
     </ownedAnnotationEntries>
@@ -30,23 +30,56 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_A3cOMcglEem9-K8kgDhyuQ" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A3cOMsglEem9-K8kgDhyuQ" x="234" y="168" width="140" height="50"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_CN-x8MwYEemFBODq2nnzdg" type="2003" element="_CNrP8MwYEemFBODq2nnzdg">
+          <children xmi:type="notation:Node" xmi:id="_COE4kMwYEemFBODq2nnzdg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_COFfoMwYEemFBODq2nnzdg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_COHU0MwYEemFBODq2nnzdg" type="3010" element="_CN55ccwYEemFBODq2nnzdg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_COHU0cwYEemFBODq2nnzdg" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_COHU0swYEemFBODq2nnzdg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_COFfocwYEemFBODq2nnzdg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_COFfoswYEemFBODq2nnzdg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_CN-x8cwYEemFBODq2nnzdg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CN-x8swYEemFBODq2nnzdg" x="234" y="282" width="140" height="50"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_NzrGAsgjEem9-K8kgDhyuQ"/>
       </data>
     </ownedAnnotationEntries>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Ay5FYMglEem9-K8kgDhyuQ" name="LocalDate" tooltipText="" width="14" height="5">
-      <target xmi:type="ecore:EDataType" href="ecoredatetime.ecore#//LocalDate"/>
-      <semanticElements xmi:type="ecore:EDataType" href="ecoredatetime.ecore#//LocalDate"/>
+      <target xmi:type="ecore:EDataType" href="ecoretime.ecore#//LocalDate"/>
+      <semanticElements xmi:type="ecore:EDataType" href="ecoretime.ecore#//LocalDate"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_AzAaIMglEem9-K8kgDhyuQ" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="255,250,191">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_AzT8IMglEem9-K8kgDhyuQ" name="java.time.LocalDate" tooltipText="">
-        <target xmi:type="ecore:EDataType" href="ecoredatetime.ecore#//LocalDate"/>
-        <semanticElements xmi:type="ecore:EDataType" href="ecoredatetime.ecore#//LocalDate"/>
+        <target xmi:type="ecore:EDataType" href="ecoretime.ecore#//LocalDate"/>
+        <semanticElements xmi:type="ecore:EDataType" href="ecoretime.ecore#//LocalDate"/>
         <decorations xmi:type="viewpoint:Decoration" uid="_AzW_cMglEem9-K8kgDhyuQ">
           <description xmi:type="description:SemanticBasedDecoration" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='External']"/>
         </decorations>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_AzVxUMglEem9-K8kgDhyuQ" showIcon="false">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType_InstanceClassName']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType_InstanceClassName']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_CNrP8MwYEemFBODq2nnzdg" name="LocalTime" tooltipText="" width="14" height="5">
+      <target xmi:type="ecore:EDataType" href="ecoretime.ecore#//LocalTime"/>
+      <semanticElements xmi:type="ecore:EDataType" href="ecoretime.ecore#//LocalTime"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_CNr3AMwYEemFBODq2nnzdg" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="255,250,191">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_CN55ccwYEemFBODq2nnzdg" name="java.time.LocalTime" tooltipText="">
+        <target xmi:type="ecore:EDataType" href="ecoretime.ecore#//LocalTime"/>
+        <semanticElements xmi:type="ecore:EDataType" href="ecoretime.ecore#//LocalTime"/>
+        <decorations xmi:type="viewpoint:Decoration" uid="_CN6ggMwYEemFBODq2nnzdg">
+          <description xmi:type="description:SemanticBasedDecoration" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='External']"/>
+        </decorations>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_CN55cswYEemFBODq2nnzdg" showIcon="false">
           <labelFormat>italic</labelFormat>
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType_InstanceClassName']/@style"/>
         </ownedStyle>
@@ -58,6 +91,6 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
-    <target xmi:type="ecore:EPackage" href="ecoredatetime.ecore#/"/>
+    <target xmi:type="ecore:EPackage" href="ecoretime.ecore#/"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
