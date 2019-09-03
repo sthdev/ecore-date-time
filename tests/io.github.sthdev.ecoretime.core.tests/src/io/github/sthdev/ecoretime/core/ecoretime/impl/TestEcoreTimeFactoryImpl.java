@@ -4,14 +4,14 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.nullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.Before;
+import org.junit.Test;
 
 public class TestEcoreTimeFactoryImpl {
 
 	private EcoreTimeFactoryImpl factory;
 	
-	@BeforeEach
+	@Before
 	public void setup() {
 		factory = new EcoreTimeFactoryImpl();
 	}
