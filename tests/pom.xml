@@ -13,7 +13,7 @@
 	</parent>
 
 	<modules>
-		<module>io.github.sthdev.ecoretime.core.tests</module>
+		<module>io.github.sthdev.ecoretime.core.test</module>
 	</modules>
 </project>
 
