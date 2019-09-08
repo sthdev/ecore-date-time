@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Tests
-Bundle-SymbolicName: io.github.sthdev.ecoretime.core.test
+Bundle-SymbolicName: io.github.sthdev.ecoretime.core.tests
 Bundle-Version: 1.0.0.qualifier
 Fragment-Host: io.github.sthdev.ecoretime.core;bundle-version="1.0.0"
 Automatic-Module-Name: io.github.sthdev.ecoretime.tests
