@@ -3,5 +3,8 @@
    <feature id="io.github.sthdev.ecoretime.feature">
       <category name="ecoretime"/>
    </feature>
+   <feature id="io.github.sthdev.ecoretime.feature.source">
+      <category name="ecoretime"/>
+   </feature>
    <category-def name="ecoretime" label="Ecore Date Time"/>
 </site>
