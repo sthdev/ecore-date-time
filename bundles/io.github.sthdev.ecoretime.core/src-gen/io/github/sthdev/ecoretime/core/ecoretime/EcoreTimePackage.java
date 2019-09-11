@@ -16,29 +16,30 @@ import org.eclipse.emf.ecore.EPackage;
  * <li>and each data type</li>
  * </ul>
  * <!-- end-user-doc -->
- * 
- * @see io.github.sthdev.ecoretime.core.ecoretime.EcoreTimeFactory
- * @model kind="package"
+ *
+ * @see       io.github.sthdev.ecoretime.core.ecoretime.EcoreTimeFactory
+ * @model     kind="package"
  * @generated
  */
 public interface EcoreTimePackage extends EPackage {
+
 	/**
 	 * The package name. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
+	 *
 	 * @generated
 	 */
 	String eNAME = "ecoretime";
 
 	/**
 	 * The package namespace URI. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
+	 *
 	 * @generated
 	 */
 	String eNS_URI = "http://www.github.io/sthdev/ecoretime/1.0";
 
 	/**
 	 * The package namespace name. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
+	 *
 	 * @generated
 	 */
 	String eNS_PREFIX = "io.github.sthdev.ecoretime";
@@ -46,7 +47,7 @@ public interface EcoreTimePackage extends EPackage {
 	/**
 	 * The singleton instance of the package. <!-- begin-user-doc --> <!--
 	 * end-user-doc -->
-	 * 
+	 *
 	 * @generated
 	 */
 	EcoreTimePackage eINSTANCE = io.github.sthdev.ecoretime.core.ecoretime.impl.EcoreTimePackageImpl.init();
@@ -54,9 +55,9 @@ public interface EcoreTimePackage extends EPackage {
 	/**
 	 * The meta object id for the '<em>Local Date</em>' data type. <!--
 	 * begin-user-doc --> <!-- end-user-doc -->
-	 * 
-	 * @see java.time.LocalDate
-	 * @see io.github.sthdev.ecoretime.core.ecoretime.impl.EcoreTimePackageImpl#getLocalDate()
+	 *
+	 * @see       java.time.LocalDate
+	 * @see       io.github.sthdev.ecoretime.core.ecoretime.impl.EcoreTimePackageImpl#getLocalDate()
 	 * @generated
 	 */
 	int LOCAL_DATE = 0;
@@ -64,9 +65,9 @@ public interface EcoreTimePackage extends EPackage {
 	/**
 	 * The meta object id for the '<em>Local Time</em>' data type. <!--
 	 * begin-user-doc --> <!-- end-user-doc -->
-	 * 
-	 * @see java.time.LocalTime
-	 * @see io.github.sthdev.ecoretime.core.ecoretime.impl.EcoreTimePackageImpl#getLocalTime()
+	 *
+	 * @see       java.time.LocalTime
+	 * @see       io.github.sthdev.ecoretime.core.ecoretime.impl.EcoreTimePackageImpl#getLocalTime()
 	 * @generated
 	 */
 	int LOCAL_TIME = 1;
@@ -74,10 +75,10 @@ public interface EcoreTimePackage extends EPackage {
 	/**
 	 * Returns the meta object for data type '{@link java.time.LocalDate <em>Local
 	 * Date</em>}'. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
-	 * @return the meta object for data type '<em>Local Date</em>'.
-	 * @see java.time.LocalDate
-	 * @model instanceClass="java.time.LocalDate"
+	 *
+	 * @return    the meta object for data type '<em>Local Date</em>'.
+	 * @see       java.time.LocalDate
+	 * @model     instanceClass="java.time.LocalDate"
 	 * @generated
 	 */
 	EDataType getLocalDate();
@@ -85,10 +86,10 @@ public interface EcoreTimePackage extends EPackage {
 	/**
 	 * Returns the meta object for data type '{@link java.time.LocalTime <em>Local
 	 * Time</em>}'. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
-	 * @return the meta object for data type '<em>Local Time</em>'.
-	 * @see java.time.LocalTime
-	 * @model instanceClass="java.time.LocalTime"
+	 *
+	 * @return    the meta object for data type '<em>Local Time</em>'.
+	 * @see       java.time.LocalTime
+	 * @model     instanceClass="java.time.LocalTime"
 	 * @generated
 	 */
 	EDataType getLocalTime();
@@ -96,8 +97,8 @@ public interface EcoreTimePackage extends EPackage {
 	/**
 	 * Returns the factory that creates the instances of the model. <!--
 	 * begin-user-doc --> <!-- end-user-doc -->
-	 * 
-	 * @return the factory that creates the instances of the model.
+	 *
+	 * @return    the factory that creates the instances of the model.
 	 * @generated
 	 */
 	EcoreTimeFactory getEcoreTimeFactory();
@@ -112,16 +113,17 @@ public interface EcoreTimePackage extends EPackage {
 	 * <li>and each data type</li>
 	 * </ul>
 	 * <!-- end-user-doc -->
-	 * 
+	 *
 	 * @generated
 	 */
 	interface Literals {
+
 		/**
 		 * The meta object literal for the '<em>Local Date</em>' data type. <!--
 		 * begin-user-doc --> <!-- end-user-doc -->
-		 * 
-		 * @see java.time.LocalDate
-		 * @see io.github.sthdev.ecoretime.core.ecoretime.impl.EcoreTimePackageImpl#getLocalDate()
+		 *
+		 * @see       java.time.LocalDate
+		 * @see       io.github.sthdev.ecoretime.core.ecoretime.impl.EcoreTimePackageImpl#getLocalDate()
 		 * @generated
 		 */
 		EDataType LOCAL_DATE = eINSTANCE.getLocalDate();
@@ -129,9 +131,9 @@ public interface EcoreTimePackage extends EPackage {
 		/**
 		 * The meta object literal for the '<em>Local Time</em>' data type. <!--
 		 * begin-user-doc --> <!-- end-user-doc -->
-		 * 
-		 * @see java.time.LocalTime
-		 * @see io.github.sthdev.ecoretime.core.ecoretime.impl.EcoreTimePackageImpl#getLocalTime()
+		 *
+		 * @see       java.time.LocalTime
+		 * @see       io.github.sthdev.ecoretime.core.ecoretime.impl.EcoreTimePackageImpl#getLocalTime()
 		 * @generated
 		 */
 		EDataType LOCAL_TIME = eINSTANCE.getLocalTime();

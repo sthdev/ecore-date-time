@@ -74,7 +74,7 @@ public class TestEcoreTimeFactoryImpl {
 	public void testCreateLocalTimeFromString_initialValueIsInvalidLocalTime_throwsDateTimeParseException() {
 		factory.createLocalTimeFromString(null, "asadafdefefe");
 	}
-	
+
 	@Test
 	public void testConvertLocalTimeToString_instanceValueIsNull_returnsNull() {
 		assertThat(factory.convertLocalTimeToString(null, null), is(nullValue()));
@@ -85,6 +85,5 @@ public class TestEcoreTimeFactoryImpl {
 		LocalTime localTime = LocalTime.parse("12:34:56");
 		assertThat(factory.convertLocalTimeToString(null, localTime), is(localTime.toString()));
 	}
-
 
 }
