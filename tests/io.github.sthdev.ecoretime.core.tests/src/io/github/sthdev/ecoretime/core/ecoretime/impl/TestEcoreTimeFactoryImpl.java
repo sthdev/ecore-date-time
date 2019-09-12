@@ -3,6 +3,7 @@ package io.github.sthdev.ecoretime.core.ecoretime.impl;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.nullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -23,6 +24,7 @@ public class TestEcoreTimeFactoryImpl {
 	@Test
 	public void testCreateLocalDateFromString_initialValueIsNull_returnsNull() {
 		assertThat(factory.createLocalDateFromString(null, null), is(nullValue()));
+		assertTrue(false);
 	}
 
 	@Test
