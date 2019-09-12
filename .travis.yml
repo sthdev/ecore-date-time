@@ -1,6 +1,0 @@
-language: java
-
-script: mvn verify
-
-after_failure: 
-   - cat io.github.sthdev.ecoretime.core.tests/target/surefire-reports/*.txt
