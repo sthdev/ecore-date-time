@@ -1,3 +1,5 @@
 language: java
 
 script: mvn verify
+
+after_failure: cat target/surefire-reports/*.txt
