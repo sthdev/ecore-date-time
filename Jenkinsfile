@@ -10,6 +10,11 @@ pipeline {
             steps {
                 bat "mvn -B verify"
             }
+            post {
+            	always {
+            		junit 'target/surefire-reports/**/*.xml'
+            	}
+            }
         }
     }
 }
