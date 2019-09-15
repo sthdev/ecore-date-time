@@ -3,7 +3,12 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat "mvn -B compile -DskiptTests=true"
+                bat "mvn -B clean compile -DskiptTests=true"
+            }
+        }
+        stage('test') {
+            steps {
+                bat "mvn -B verify"
             }
         }
     }
