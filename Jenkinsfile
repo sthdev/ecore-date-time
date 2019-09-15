@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'mvn compile -DskipTests=true'
+                bat "mvn compile -DskipTests=true"
             }
         }
     }
