@@ -8,7 +8,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                sh# "mvn -B verify"
+                sh "mvn -B verify"
             }
             post {
             	always {
