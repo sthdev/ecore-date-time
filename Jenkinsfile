@@ -27,7 +27,9 @@ pipeline {
       steps {
         sh 'rm -rfv /var/updatesites/dev/ecoretime/'
         sh 'cd ./releng/io.github.sthdev.ecoretime.updatesite/target/repository/'
-        sh 'mkdir /var/updatesites/dev/ecoretime/'
+        sh 'cd /var/updatesites'
+        sh 'ls'
+        sh 'mkdir /var/updatesites/dev/ecoretime'
         sh 'cp -rv ./releng/io.github.sthdev.ecoretime.updatesite/target/repository/* /var/updatesites/dev/ecoretime/' 
       }
     }
