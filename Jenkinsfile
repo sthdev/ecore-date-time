@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       image 'maven:3.6.0-jdk-8-alpine'
-      args '-v $HOME/.m2:/root/.m2'
+      args '-v $HOME/.m2:/root/.m2 -v $HOME/dev-tools/updatesites:/var/updatesites'
     }
 
   }
