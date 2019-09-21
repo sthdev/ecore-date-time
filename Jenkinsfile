@@ -16,13 +16,16 @@ pipeline {
       post {
         always {
           junit 'tests/**/target/surefire-reports/**/*.xml'
-
         }
 
       }
       steps {
         sh 'mvn -B verify'
       }
+    }
+    stage('deploy dev update site') {
+    	sh 'rm -rfv /var/updatesires/dev/ecoretime/'
+    	sh 'cp -rv ./releng/io.github.sthdev.ecoretime.updatesite/target/repository/* /var/updatesites/dev/ecoretime/' 
     }
   }
 }
