@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       image 'maven:3.6.0-jdk-8-alpine'
-      args '-v $HOME/.m2:/root/.m2 -v $HOME/dev-tools/updatesites:/var/updatesites'
+      args '-v $HOME/.m2:/root/.m2'
     }
 
   }
@@ -25,9 +25,7 @@ pipeline {
     }
     stage('deploy dev update site') {
       steps {
-        sh 'mkdir /var/updatesites/dev'
-        sh 'mkdir /var/updatesites/dev/ecoretime'
-        sh 'cp -rv ./releng/io.github.sthdev.ecoretime.updatesite/target/repository/* /var/updatesites/dev/ecoretime/' 
+        echo 'TODO: Deploy via ftp or similar to a different server.'
       }
     }
   }
