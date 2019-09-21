@@ -24,8 +24,10 @@ pipeline {
       }
     }
     stage('deploy dev update site') {
-    	sh 'rm -rfv /var/updatesires/dev/ecoretime/'
-    	sh 'cp -rv ./releng/io.github.sthdev.ecoretime.updatesite/target/repository/* /var/updatesites/dev/ecoretime/' 
+      steps {
+        sh 'rm -rfv /var/updatesires/dev/ecoretime/'
+        sh 'cp -rv ./releng/io.github.sthdev.ecoretime.updatesite/target/repository/* /var/updatesites/dev/ecoretime/' 
+      }
     }
   }
 }
